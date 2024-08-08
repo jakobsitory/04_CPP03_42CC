@@ -6,13 +6,32 @@
 /*   By: jschott <jschott@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/04 12:16:44 by jschott           #+#    #+#             */
-/*   Updated: 2024/01/29 13:34:38 by jschott          ###   ########.fr       */
+/*   Updated: 2024/08/08 12:42:58 by jschott          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "DiamondTrap.hpp"
 #include <vector>
 
+/**
+ * @file main.cpp
+ * 
+ * This file contains the main function for a simulation program that demonstrates the use of the DiamondTrap class, which inherits
+ * from both the FragTrap and ScavTrap classes. The program allows users to create DiamondTrap objects by entering names, and then
+ * simulates a series of actions including repairing, taking damage, and attacking.
+ * 
+ * The main steps of the program are:
+ * 1. Welcome the user and provide instructions for creating DiamondTraps or controlling the simulation.
+ * 2. Read user input until "FIGHT" or "EXIT" is entered. If a name is entered, a new DiamondTrap object is created with that name.
+ * 3. Display the total number of DiamondTraps created.
+ * 4. Simulate repairing each DiamondTrap by 1 hitpoint.
+ * 5. Simulate each DiamondTrap taking 10 points of damage.
+ * 6. Simulate each DiamondTrap attacking a "random DiamondTrap".
+ * 7. Simulate repairing each DiamondTrap by 1 hitpoint 11 times in a row.
+ * 
+ * The simulation ends when the user enters "EXIT". The program demonstrates dynamic memory allocation for DiamondTrap objects and
+ * the use of vectors to manage a collection of pointers to these objects.
+ */
 int	main(void)
 {
 	std::vector<ClapTrap*> ClapTraps;
