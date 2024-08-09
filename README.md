@@ -5,7 +5,7 @@ This repository contains solutions to various C++ programming challenges from th
 ## **Modules**
 
 ### **ex00 - Aaaaand... OPEN!**
-The Aaaaand... OPEN! project involves creating a class that simulates opening and closing mechanisms.
+A class that simulates opening and closing mechanisms.
 
 **Key objectives included:**
 
@@ -14,7 +14,7 @@ The Aaaaand... OPEN! project involves creating a class that simulates opening an
 - Ensuring proper resource management and state handling.
 
 ### **ex01 - Serena, my love!**
-The Serena, my love! project involves creating a class that simulates a love letter writing mechanism.
+A class that simulates a love letter writing mechanism.
 
 **Key objectives included:**
 
@@ -23,7 +23,7 @@ The Serena, my love! project involves creating a class that simulates a love let
 - Ensuring proper resource management and state handling.
 
 ### **ex02 - Repetitive work**
-The Repetitive work project involves creating a class that automates repetitive tasks.
+A class that automates repetitive tasks.
 
 **Key objectives included:**
 
@@ -32,7 +32,7 @@ The Repetitive work project involves creating a class that automates repetitive 
 - Ensuring proper resource management and state handling.
 
 ### **ex03 - Now it’s weird!**
-The Now it’s weird! project involves creating a class that simulates unusual or weird behaviors.
+A class that simulates unusual or weird behaviors.
 
 **Key objectives included:**
 
@@ -46,7 +46,8 @@ To install the project, follow these steps:
 
 1. Clone the repository: **`git clone git@github.com:jakobsitory/04_CPP03_42CC.git`**
 2. Navigate to the project directory: **`cd 04_CPP03_42CC`**
-3. Build the project: **`make`**
+3. Navigate to the excercise directory : **`cd ex00`**,  **`cd ex01`** ...
+4.. Build the project: **`make`**
 
 ## **Usage**
 _Follow the on-screen instructions to add and search for contacts._
