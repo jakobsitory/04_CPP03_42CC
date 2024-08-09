@@ -50,7 +50,7 @@ To install the project, follow these steps:
 4.. Build the project: **`make`**
 
 ## **Usage**
-_Follow the on-screen instructions to add and search for contacts._
+_Follow the on-screen instructions to run program._
 
 ### **ex00 - Aaaaand... OPEN!**
 ```bash
